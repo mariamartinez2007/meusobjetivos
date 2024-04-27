@@ -83,6 +83,7 @@ display: block;
       color: var(--verde);
       text-transform: uppercase;
 }
+ .contador{
 
 .aba-conteudo{
      display: none;
