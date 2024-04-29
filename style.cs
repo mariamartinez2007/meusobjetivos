@@ -84,6 +84,29 @@ display: block;
       text-transform: uppercase;
 }
  .contador{
+     display:flex;
+     justify-content: center;
+     flex-wrap: wrap;
+
+ }
+ .contador-digito{
+     paddig: 0 16px;
+     text-aling: center;
+     min-width: 100px
+ }
+
+ .contador-digito-numero{
+     font-size: 80px;
+     margin: 0;
+
+ }
+
+ .contador-digito-texto{
+     color:var(--verde);
+     font-size:20px;
+     margin: 0;
+
+     { 
 
 .aba-conteudo{
      display: none;
@@ -99,5 +122,5 @@ border-radius: 40px 0 0 0;
 
 .botao:last-child {
 border-radius: 0 40px 0 0;
-}
+ }
 }
