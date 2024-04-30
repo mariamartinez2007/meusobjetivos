@@ -22,7 +22,7 @@ for(let i=0;i < bontoes.length;i++) {
         const tempo=
         [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
-    function calcula Tempo(tempoObjetivo){
+    function calculaTempo(tempoObjetivo){
         let tempoAtual=new Date();
         let tempoFinal=tempoObjetivo-tempoAtual;
         let segundos=Math.floor(tempoFinal/1000);
